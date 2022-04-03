@@ -17,6 +17,7 @@ type Models struct {
 	// any models inserted hee (and in the New function)
 	// are easily accessible throughout the entire application
 	
+}
 
 func New(databasePool *sql.DB) Models {
 	db = databasePool
